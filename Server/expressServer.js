@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
 })
 
 app.listen(5000, () => {
-    console.log("Running.........");
+    console.log("Server running on port 5000");
 });
 
 // npm run start-express => nodemon expressServer.js => to run the ExpressJS Server
