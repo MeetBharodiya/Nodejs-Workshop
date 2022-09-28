@@ -11,4 +11,10 @@ const a = 10;
 
 // a = 20; // TypeError: Assignment to constant variable.
 
+if (true) {
+    const b = 20;
+    console.log(a);
+}
+
 console.log(a);
+// console.log(b); // ReferenceError: b is not defined, because b is block-scoped.
