@@ -4,7 +4,9 @@
   "description": "",
   "main": "basicRouting.js",
   "scripts": {
-    "start-basic": "nodemon basicRouting.js",
+    "start-basic": "nodemon basicRouting",
+    "start-params": "nodemon paramsRouting",
+    "start-advanced": "nodemon advancedRouting",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
